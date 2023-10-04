@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcf6f6;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #ff0404;
+    border-radius: 1rem;
+    border: 10px solid gray;
+}
+
+h1 {
+    text-align: center;
+    color: #f9fd12;
+    
+    text-shadow: rgb(0, 47, 255) 4px 4px 1px;;
+}
+
+h1::before {
+    content: url("../../public/favicon36x36.png");
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
